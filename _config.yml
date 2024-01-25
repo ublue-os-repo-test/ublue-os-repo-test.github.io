@@ -1,0 +1,15 @@
+title: ublue-os-repo-test
+email: email@email.com
+description: >- 
+  This is a test rpm repository for the ublue-os project.
+baseurl: ""
+url: "https://ublue-os-repo-test.github.io"
+github_username: noelmiller
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+exclude:
+  - tools/
+  - doc/
